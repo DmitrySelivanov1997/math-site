@@ -1,0 +1,3058 @@
+[33mcommit 795c83cf17be9cb8031047f96affc31a51dfed2b[m[33m ([m[1;36mHEAD -> [m[1;32madd-keyHashToDB[m[33m)[m
+Author: Dmitry Selivanov <mr.amasing@yandex.ru>
+Date:   Thu Feb 8 23:08:31 2018 +0300
+
+    added one byte[] column for my keyHash for 2fa
+
+[33mcommit ff7467010b602ed6de48bdb1da89f4b2b9c20b15[m[33m ([m[1;31morigin/rc-1.0.0[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mrc-1.0.0[m[33m)[m
+Merge: 997ce9e 665309e
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 21:37:02 2018 +0300
+
+    Merge pull request #238 from YarGU-Demidov/1.0.0/feature/dav/pages-functionality-for-manager
+    
+    1.0.0/feature/dav/pages functionality for manager
+
+[33mcommit 665309e6dc6963bd1670313fc95048fabdf468f2[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 21:25:51 2018 +0300
+
+    пофиксил появившиеся после мёржа баги
+
+[33mcommit 350c9f1111452e17d82ae61aca9f52603f92e06f[m
+Merge: 997ce9e 89ebe17
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 20:18:02 2018 +0300
+
+    Merge branch '0.0.4/dav/features/pages-functionality-for-manager' into 1.0.0/feature/dav/pages-functionality-for-manager
+    
+    # Conflicts:
+    #       src/MathSite.Facades/Posts/IPostsFacade.cs
+    #       src/MathSite.Facades/Posts/PostsFacade.cs
+    #       src/MathSite/MathSite.csproj
+
+[33mcommit 89ebe17ce91c7f230175195a5204445ff636ede8[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 19:58:38 2018 +0300
+
+    удалил файлы из .csproj
+
+[33mcommit a396096d533a0b6e123047c512ec2e1422e06d1f[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 19:56:26 2018 +0300
+
+    поправил BaseController
+
+[33mcommit 7c87ba02cfd08ba49d31e730c50f9c752d98845f[m
+Author: Andrey Devyatkin <undredevyatkin@yandex.ru>
+Date:   Thu Feb 8 03:02:08 2018 +0300
+
+    Fixing PR comments
+
+[33mcommit 239128e629e89051adb4014ce537e13713398f66[m
+Author: Andrey Devyatkin <undredevyatkin@yandex.ru>
+Date:   Thu Feb 8 02:06:43 2018 +0300
+
+    Adding the ability to remove static page
+
+[33mcommit 997ce9eeeba729c9062208914dc8bf466313b874[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 00:39:13 2018 +0300
+
+    Поправил дублирование расширения файла в выводе списка файлов
+
+[33mcommit 6a251c3b927029f97c43893aaa4f1d3c53d182ff[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Feb 8 00:36:10 2018 +0300
+
+    добавил скрипты старта приложения для прода
+
+[33mcommit aadfdf070dc206004b7a2e61917cc19adb4fc14a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Feb 7 23:55:47 2018 +0300
+
+    пофиксил баги:
+     + не загружалась страница новостей
+     + неправильно отображался пагинатор
+     + не выстален url для ссылки на новость в шаблоне превьюхи новости
+     + чуток причесал код
+
+[33mcommit c3346bac2c6f3bec6dae2ebe5f1b004ba2df6beb[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Feb 7 21:08:55 2018 +0300
+
+    extend clearable
+
+[33mcommit 106ac8605a532300497c68fc533b9d300e99118d[m
+Merge: 2aa2c4b 77c8551
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Feb 7 15:35:43 2018 +0300
+
+    Merge pull request #234 from YarGU-Demidov/1.0.0/feature/new-site-layout
+    
+    1.0.0/feature/new site layout
+
+[33mcommit 77c8551f028aaa33969d750ac6219d27b553311a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Feb 7 03:08:54 2018 +0300
+
+    fix tests build
+
+[33mcommit f317d6d72d4ca8c39aad279b169047497f2152a2[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Feb 7 02:47:36 2018 +0300
+
+    more features was added for new layout
+
+[33mcommit c6b57b5106c778d5fcbf21548bc2c10028696923[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Tue Feb 6 00:28:53 2018 +0300
+
+    more things starts to work properly
+
+[33mcommit c7e45822fde89a1b5bf4ddf107edf4ea1e506ec4[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Feb 4 23:51:12 2018 +0300
+
+    added more layouts and fixed some bugs
+
+[33mcommit 60decd81c239710e09f6e941f2aeb2f7ef40545f[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Feb 3 23:22:11 2018 +0300
+
+    update migrations
+
+[33mcommit a1aa196e030d213942284e10a41fd1109c294b4c[m
+Author: Andrey Devyatkin <undredevyatkin@yandex.ru>
+Date:   Sat Feb 3 17:57:47 2018 +0300
+
+    Adding the ability to create a new page
+
+[33mcommit f0d4861df870a7953144c941254f1ff72947ba62[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Jan 15 14:12:20 2018 +0300
+
+    частично прикручена новая вёрстка
+
+[33mcommit 2aa2c4b30e7474af91bda2bef7b7cf2b7f72370b[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:30:24 2017 +0300
+
+    update appveyor version to 1.0.0
+
+[33mcommit ec60f14b7afe68f7d1a3b7549a3742dc4b4412a9[m
+Merge: 7e64326 320d443
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:29:38 2017 +0300
+
+    Merge branch 'rc-1.0.0' of github.com:YarGU-Demidov/math-site into rc-1.0.0
+
+[33mcommit 7e64326591b040c0695242d2a1f97957fcc567a7[m
+Merge: b5cb71e e435c1f
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:29:27 2017 +0300
+
+    Merge branch 'rc-0.0.4' into rc-1.0.0
+
+[33mcommit e435c1f4284c21fc297335a5e1400808c39cbffc[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:29:15 2017 +0300
+
+    appveyor version fix
+
+[33mcommit 320d4432193c63d3433ff322b69d1b24becb37be[m
+Merge: b5cb71e 29b2f70
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:22:20 2017 +0300
+
+    Merge pull request #232 from YarGU-Demidov/rc-0.0.4
+    
+    stop notifying from travis
+
+[33mcommit 29b2f70fd12176905da3361716a0edd53cf81c6b[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:21:54 2017 +0300
+
+    stop notifying from travis
+
+[33mcommit b5cb71e7ac09942f4f9fe6d99b3952d727418c40[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:13:48 2017 +0300
+
+    bump versions to 1.0.0
+
+[33mcommit 457974a5b4f661a7e722945fe52d56161073ba74[m
+Merge: db045bf 91805c4
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:08:55 2017 +0300
+
+    Merge branch 'rc-0.0.4' into rc-1.0.0
+
+[33mcommit 91805c4fefe7d3382471c61c5a287f25bdce73ef[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:08:25 2017 +0300
+
+    build statuses images fixed for 0.0.4
+
+[33mcommit db045bf7df22cb205aba4c955a72f4369b03cfd0[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:05:14 2017 +0300
+
+    bump version to 1.0.0
+
+[33mcommit 32d8c590de0d472d3788dc4c029c43b22d9572f6[m
+Merge: 61a43d4 a20c18a
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:03:47 2017 +0300
+
+    Merge pull request #231 from YarGU-Demidov/rc-0.0.4
+    
+    Update package.json
+
+[33mcommit a20c18a3ecb152d5c3e864fddbfffacba34507ba[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:03:20 2017 +0300
+
+    Update package.json
+
+[33mcommit 61a43d4724da83259a187f18dd31146bf3d14a2d[m
+Merge: e865b34 45937a9
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:01:02 2017 +0300
+
+    Merge pull request #230 from YarGU-Demidov/rc-0.0.4
+    
+    Update MathSite.Facades.csproj
+
+[33mcommit 45937a9ed840abf7d7ed6c9e29e9d831cfb4c1d5[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 05:00:09 2017 +0300
+
+    Update MathSite.Facades.csproj
+
+[33mcommit e865b3407762707174e742977a6d0c6f0d4873ec[m
+Merge: 78e4def ac54bb5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:57:30 2017 +0300
+
+    Merge pull request #229 from YarGU-Demidov/rc-0.0.4
+    
+    versions update
+
+[33mcommit ac54bb5cb3566c320007b49ea89f139ceab4efbb[m
+Merge: aa146ff 78e4def
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:57:08 2017 +0300
+
+    Merge branch 'rc-1.0.0' into rc-0.0.4
+
+[33mcommit aa146ffc402ce26bb5f5779043ac0d55aeb3984a[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:48:09 2017 +0300
+
+    update versions
+
+[33mcommit 78e4def6d0fc58a638b7c3a44ffad44950bfda29[m
+Merge: 6abf6b4 f9091a8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:40:46 2017 +0300
+
+    Merge pull request #228 from YarGU-Demidov/0.0.3/feature/add-directory-support
+    
+    0.0.3/feature/add directory support
+
+[33mcommit fe75371720a7a65f738038122e3f550e337b490f[m[33m ([m[1;33mtag: 0.0.3[m[33m)[m
+Merge: 552333a f9091a8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:40:44 2017 +0300
+
+    Merge pull request #227 from YarGU-Demidov/0.0.3/feature/add-directory-support
+    
+    0.0.3/feature/add directory support
+
+[33mcommit f9091a8d30a72752e0480f8c3a764eedf42027e2[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Dec 15 04:29:56 2017 +0300
+
+    more fs related changes
+
+[33mcommit 3ea01dd0b77ff25be7a446591a11b463133b130d[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Dec 3 04:08:23 2017 +0300
+
+    changed lang version to latest for all projects and configurations
+
+[33mcommit c15c27498a51fe5cf5a90e57af9888c29e25fb33[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Dec 3 03:59:14 2017 +0300
+
+    fix versions in files for appveyor
+
+[33mcommit c1dc908f459ec15487fe76444e42e5792579bcb5[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Dec 3 03:41:40 2017 +0300
+
+    huge tests refactoring
+     - removed httpcontextaccessor from everywhere
+     - added lazy deps
+     - switch to c# latest (7.1) in every project
+     - move user exists check to userfacade
+     - remove obsolete fields from File table in DB
+     - added string extension for null or whitespace check
+     - change UserAliases names to real instead of just "FirstUser", etc
+     - all facades now implements empty interface IFacade
+     - fix bug in SaveFileAsync method
+     - remove seeding from every test to seeding all data before each test in base class
+
+[33mcommit 5624399db9509c7f339c8cb3bd5a5542ec95ba12[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Nov 29 01:48:11 2017 +0300
+
+    added more stuff for virtual fs working:
+     - file will no longer be saved on storage if it already exists (checking via sha512)
+     - created base collection multiple important file formats, that should be extended in the future
+     - fixed BaseController (removed one method that do the same work like other but sync)
+     - added new migrations for virtual fs
+     - updated some deps
+     - extended RepositoryBase and EfCoreRepositoryBase with LastOrDefault (with async versions) methods, that available now for all entities
+     - added ordered overloaded versions for LastOrDefault and FirstOrDefault
+     - and much more cool stuff
+
+[33mcommit 797b8c184dea185788a0da8b818e056b2becb6e0[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Nov 23 03:00:15 2017 +0300
+
+    a bit more fs changes
+
+[33mcommit 23a0fabe81683ca480d8513adc2852a0cf6ef369[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 03:21:07 2017 +0300
+
+    forget important symbols
+
+[33mcommit e7408aaf5d2200ef33335fc1d308d9d7cbba9c05[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 03:18:53 2017 +0300
+
+    travis version down
+
+[33mcommit 5f880cd4acba006a59c1105878c7c9f42c0f4273[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 03:15:57 2017 +0300
+
+    CI's fixes
+
+[33mcommit 1efe8283db768ef815dcbe29ee915edee8037ad7[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 03:05:33 2017 +0300
+
+    travis ci dotnet core clr version up
+
+[33mcommit 6bfa1fcfa2cfb17e0945d3237ff6b9105919bcd0[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 03:04:32 2017 +0300
+
+    bump versions and fix CI's configs
+
+[33mcommit 371f4abc6d5c5f9f0058b22c56220fa9463d8cfa[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Nov 19 02:44:53 2017 +0300
+
+    base stuff for directories support in db.
+
+[33mcommit 6abf6b4a60d39e7bc0615f239ce359ce533afb7c[m
+Merge: 7ec7b7a 552333a
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 04:42:47 2017 +0300
+
+    Merge pull request #226 from YarGU-Demidov/rc-0.0.3
+    
+    update deps and ci configs
+
+[33mcommit 552333a08b3e1524f5234183d438286b938b349b[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 04:33:50 2017 +0300
+
+    update dependecies and change ci configs
+
+[33mcommit 7ec7b7abbaba01dd968cfedad5c522c3e951253a[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:36:25 2017 +0300
+
+    bump version for appveyor
+
+[33mcommit 65e20c7ba3f8ae05d8bfeaaf247f50a1a6d128bf[m
+Merge: aeffdef 0ce8632
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:30:37 2017 +0300
+
+    Merge pull request #225 from YarGU-Demidov/0.0.3/feature/more-for-appveyor
+    
+    0.0.3/feature/more for appveyor
+
+[33mcommit 4ecd7b0a6c9d0e6990f48cd543e352fa80e7a29d[m
+Merge: 34210d2 0ce8632
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:30:11 2017 +0300
+
+    Merge pull request #224 from YarGU-Demidov/0.0.3/feature/more-for-appveyor
+    
+    base things
+
+[33mcommit 0ce863211473c52597143bb64051191e63d4c5a9[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:29:21 2017 +0300
+
+    added info about dotnet (why not?)
+
+[33mcommit bfa50749f8c696256a338dfb2cfd873c49cc1146[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:25:33 2017 +0300
+
+    change cmd to ps
+
+[33mcommit 7be62bb2040d71e71af9105d25bed630f17582b5[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:21:22 2017 +0300
+
+    fix dist path
+
+[33mcommit 8bd3c04ad207533e347af580b2be1a7034b2aa25[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:19:07 2017 +0300
+
+    change variable to env
+
+[33mcommit 949d10e9bd4f19ded4ac0a36590b3819ae9edd94[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:15:43 2017 +0300
+
+    change folder delimiter
+
+[33mcommit 790d027b47c3f28cfd810b1b4aeaa9a9d15b85fb[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:11:25 2017 +0300
+
+    small code formating
+
+[33mcommit 39757c31f02d88812e7a3c23c46ce658f0de02be[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:10:48 2017 +0300
+
+    remove old stuff
+
+[33mcommit 113f8e5e2a8a687514f55f2c63d662bf344b4c29[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:04:45 2017 +0300
+
+    add more fixes to appveyor config
+
+[33mcommit 4fe9c1398a5e6866a8b228cf57560876ee07db48[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 03:00:51 2017 +0300
+
+    yaml fix
+
+[33mcommit 7d6fc2b8b45aae8d135a1d87d2886aefabe841db[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 02:58:37 2017 +0300
+
+    base things
+
+[33mcommit aeffdef735f8b63d1dae5356a610fbbb2bb20677[m
+Merge: 390bd6b 34210d2
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 02:14:56 2017 +0300
+
+    Merge pull request #223 from YarGU-Demidov/rc-0.0.3
+    
+    Update README.md
+
+[33mcommit 34210d21cbbf1a4cbf79f6f671936b641db574e4[m
+Merge: d5299c5 390bd6b
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 01:02:40 2017 +0300
+
+    Merge branch 'rc-1.0.0' into rc-0.0.3
+
+[33mcommit d5299c5eb03d7d318e987212b546444b215fecbe[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 01:01:30 2017 +0300
+
+    Update README.md
+
+[33mcommit 390bd6bd8f527e5a85a2f63ac537625d827ad521[m
+Merge: 685a239 de5d579
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 01:00:29 2017 +0300
+
+    Merge pull request #222 from YarGU-Demidov/rc-0.0.3
+    
+    appveyor support
+
+[33mcommit de5d57913ef006c3f2c46614f41687646003580e[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 00:54:22 2017 +0300
+
+    remove wrong line from appveyor.yaml
+
+[33mcommit ed1e785745c40fc8fccc486480844446f3fd4b61[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 00:52:16 2017 +0300
+
+    add appveyor ci support
+
+[33mcommit 685a2394e059819a0ee986dae61b82fa38d345db[m
+Merge: 402ddf5 c29174e
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 00:31:54 2017 +0300
+
+    Merge remote-tracking branch 'origin/rc-0.0.3' into rc-1.0.0
+    
+    # Conflicts:
+    #       src/MathSite.BasicAdmin.ViewModels/MathSite.BasicAdmin.ViewModels.csproj
+    #       src/MathSite.Common/MathSite.Common.csproj
+    #       src/MathSite.Db/MathSite.Db.csproj
+    #       src/MathSite.Entities/MathSite.Entities.csproj
+    #       src/MathSite.Facades/MathSite.Facades.csproj
+    #       src/MathSite.Repository/MathSite.Repository.csproj
+    #       src/MathSite.Specifications/MathSite.Specifications.csproj
+    #       src/MathSite.ViewModels/MathSite.ViewModels.csproj
+    #       src/MathSite/MathSite.csproj
+
+[33mcommit c29174ee6fb39b5d533ef05fb6050be8328236d9[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Nov 6 00:28:51 2017 +0300
+
+    fix small bugs and bump assembly versions
+
+[33mcommit 402ddf5319a740854db844e6779d34256c159c1a[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Nov 5 01:10:17 2017 +0300
+
+    Update README.md
+
+[33mcommit 0b25cda6896b52a7ea3f21678e5d613617bdb705[m
+Merge: 2c9e7c2 213b930
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Nov 5 01:09:44 2017 +0300
+
+    Merge pull request #221 from YarGU-Demidov/rc-0.0.3
+    
+    travis branch version change
+
+[33mcommit 213b9304afd0596ecca7f8f2c35d657e1414b5b0[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Nov 5 01:08:51 2017 +0300
+
+    Update README.md
+    
+    Change travis image branch
+
+[33mcommit bf6b9ae8250185556c2eb32c08a56f04875c0001[m
+Merge: 800da49 3b709cd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Nov 5 01:01:22 2017 +0300
+
+    Merge pull request #220 from YarGU-Demidov/rc-0.0.2
+    
+    Update README.md
+
+[33mcommit 2c9e7c2f548658692ab4960961065083e3868eff[m
+Merge: 01925cf 3b709cd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 21:24:32 2017 +0300
+
+    Merge pull request #218 from YarGU-Demidov/rc-0.0.2
+    
+    Update README.md
+
+[33mcommit 3b709cd5c7f4823584028615c98f24de5f7138bb[m[33m ([m[1;33mtag: 0.0.2[m[33m)[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 21:24:15 2017 +0300
+
+    Update README.md
+
+[33mcommit 01925cf50120acf4687c1481226477af23493105[m
+Merge: 2bb7c1d 800da49
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 21:22:31 2017 +0300
+
+    Merge pull request #217 from YarGU-Demidov/rc-0.0.2
+    
+    add travis ci and migrate from bower to yarn
+
+[33mcommit 800da490d4ced52f6d52ff02484c1a26a703b194[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 21:20:44 2017 +0300
+
+    update readme.md
+
+[33mcommit a59a16571dab8be0b1b8f8b2cb50205b658eac36[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 21:02:05 2017 +0300
+
+    travis: remove unnecessary line from configuration
+
+[33mcommit 152ea506e1921902a40a8f70cb379e3f4b7caf60[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 20:57:28 2017 +0300
+
+    move from bower to yarn
+
+[33mcommit 3f79d16f3eec58436e80b9f93cd1be6bb69b63ca[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 19:39:51 2017 +0300
+
+    travis: install bower globally
+
+[33mcommit 20e8e0b51b275de895964e984b91daf4b95149be[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 19:35:08 2017 +0300
+
+    add nodejs with bower support in travis
+
+[33mcommit 834e1fe77672a33ee4e3501014800dda2a2acd36[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 19:29:05 2017 +0300
+
+    downgrade dotnet core version for travis
+
+[33mcommit a8bf6402c37e57c2ad1233f8696d1f3287d52a87[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 19:26:34 2017 +0300
+
+    dotnet core version change for travis
+
+[33mcommit b87b4edd4435bfa84b3aa798f7699c7282538bec[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 18:31:22 2017 +0300
+
+    add travis ci
+
+[33mcommit 2bb7c1da7f5d03967b7775b8ad9e5e1b15021bd2[m
+Merge: 6dbeab5 cb65c90
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 03:24:47 2017 +0300
+
+    Merge pull request #216 from YarGU-Demidov/rc-0.0.2
+    
+    fix typo
+
+[33mcommit cb65c90ab786a70405c5f8ca4d6768182f265f0b[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 03:24:18 2017 +0300
+
+    fix typo
+
+[33mcommit 6dbeab58755d3cc53d700eac8d3062e5afa2005b[m
+Merge: dacb529 cc94f0f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 03:15:43 2017 +0300
+
+    Merge pull request #215 from YarGU-Demidov/rc-0.0.2
+    
+    #172 added users managing page
+
+[33mcommit cc94f0f16a1d286cd8f0e252cc62d8f58521c1b6[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Nov 4 03:15:01 2017 +0300
+
+    #172 added users managing page
+
+[33mcommit dacb529504eff602653149dcc2fdb7488c9331ec[m
+Merge: 4c2bd57 ef81579
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 02:59:07 2017 +0300
+
+    Merge pull request #214 from YarGU-Demidov/rc-0.0.2
+    
+    fix starting with concrete url
+
+[33mcommit ef815795bad97d7b1e6bea8d55b5f95160f4c66a[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 02:55:15 2017 +0300
+
+    fix starting with concrete url
+
+[33mcommit 4c2bd57ce386bb9dc524592eb92157a5b5b581b3[m
+Merge: bc731dc 60e4650
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:49:38 2017 +0300
+
+    Merge pull request #213 from YarGU-Demidov/1.0.0/feature/bump-versions
+    
+    1.0.0/feature/bump versions
+
+[33mcommit 60e465035f376c8adbe52b141517fa342597a9f1[m
+Merge: bc731dc 1a42440
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:48:59 2017 +0300
+
+    Merge branch '0.0.2/feature/bump-versions' into 1.0.0/feature/bump-versions
+    
+    # Conflicts:
+    #       src/MathSite.BasicAdmin.ViewModels/MathSite.BasicAdmin.ViewModels.csproj
+    #       src/MathSite.Common/MathSite.Common.csproj
+    #       src/MathSite.Db/MathSite.Db.csproj
+    #       src/MathSite.Entities/MathSite.Entities.csproj
+    #       src/MathSite.Facades/MathSite.Facades.csproj
+    #       src/MathSite.Repository/MathSite.Repository.csproj
+    #       src/MathSite.Specifications/MathSite.Specifications.csproj
+    #       src/MathSite.ViewModels/MathSite.ViewModels.csproj
+    #       src/MathSite/MathSite.csproj
+
+[33mcommit 5d6744e3d0bb579461af41df59d6687a08415100[m
+Merge: f432332 1a42440
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:46:41 2017 +0300
+
+    Merge pull request #211 from YarGU-Demidov/0.0.2/feature/bump-versions
+    
+    just versions up in projects
+
+[33mcommit 1a42440a68d5eb9e01ec1b21a30b80bc53efb624[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:46:06 2017 +0300
+
+    just versions up in projects
+
+[33mcommit bc731dcd451b95b2d1e44a5dd9324e2697e99520[m
+Merge: 5795b5f f432332
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:43:23 2017 +0300
+
+    Merge pull request #210 from YarGU-Demidov/rc-0.0.2
+    
+    fix version showing
+
+[33mcommit f432332ce603cef4517ed055f68bb848add18f72[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 16 01:42:54 2017 +0300
+
+    fix version showing
+
+[33mcommit 5795b5f2ed29d6c286984226c47a30a12d29642d[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Oct 13 02:05:46 2017 +0300
+
+    bump version (build number)
+
+[33mcommit a7c4e23014895a415b6df0e89ab4c65fc7513c39[m
+Merge: b135efa eb8422c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Oct 13 01:52:58 2017 +0300
+
+    Merge pull request #209 from YarGU-Demidov/rc-0.0.2
+    
+    a few minor corrections
+
+[33mcommit eb8422c9d2b431b6fed42dca8076ac2742f6aad9[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Oct 13 01:48:51 2017 +0300
+
+    a few minor corrections
+     * add version to head meta
+     * add ability to run several instances on different ports/urls
+
+[33mcommit b135efa616d637d863b050885af4c112783bbf48[m
+Merge: 13d5f8f d761057
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Oct 12 01:49:56 2017 +0300
+
+    Merge pull request #208 from YarGU-Demidov/rc-0.0.2
+    
+    small view fix
+
+[33mcommit d761057372fece1d6f77f431e375ddf0a8d3e24e[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Oct 12 01:49:38 2017 +0300
+
+    small view fix
+     * there was an error while trying get value from nullable prop
+
+[33mcommit 13d5f8f6f9687d287b23bbd20007a38c293dbccd[m
+Merge: b60bfe3 c1d8aaf
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Oct 11 01:54:59 2017 +0300
+
+    Merge pull request #207 from YarGU-Demidov/rc-0.0.2
+    
+    улучшения в дизайне кода
+
+[33mcommit c1d8aaf99600c92d42abe803f8c39ba9fbbe4780[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Oct 11 01:54:34 2017 +0300
+
+    улучшения в дизайне кода
+     * дропнул лишний код
+     * перенес DI-конструкции в extension-методы в соответствующих либах
+
+[33mcommit b60bfe3928a7af370f3ef72a74d9c1eb81e147d2[m
+Merge: 3f5296f 8d5fd9c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Oct 4 20:27:39 2017 +0300
+
+    Merge pull request #191 from YarGU-Demidov/rc-0.0.2
+    
+    persons list
+
+[33mcommit 8d5fd9cf2da310fd6825fa5251cb558333876edb[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Oct 4 20:27:05 2017 +0300
+
+    fix some basic issues with persons list
+
+[33mcommit 793a04830120655b60e4a0e7064c87d0bafa14c8[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Oct 4 10:09:09 2017 +0300
+
+    #171 persons list done
+
+[33mcommit 3f5296ff8a335686fdda33f25317d5c4f1554302[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 2 02:34:22 2017 +0300
+
+    version up (didn't save project)
+
+[33mcommit bf9ba9f3bd446ac66fc962441c850a0fcd475fb2[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 2 02:33:32 2017 +0300
+
+    version up
+
+[33mcommit 27efdd456c48ff2902a0fbde56c69167945c3e59[m
+Merge: 87f3e47 a4eb248
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Oct 2 02:25:15 2017 +0300
+
+    Merge pull request #188 from YarGU-Demidov/rc-0.0.2
+    
+    small csproj changes (assembly info with version)
+
+[33mcommit a4eb248395d30643c11fffb4634ad42c4358e2d0[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Oct 2 02:24:55 2017 +0300
+
+    small csproj changes (assembly info with version)
+
+[33mcommit 87f3e479f5955753c6115a6dbdecedc0bbe4ff18[m
+Merge: 15fb2dd 8e11250
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 22:47:01 2017 +0300
+
+    Merge pull request #187 from YarGU-Demidov/rc-0.0.2
+    
+    remove code duplication && fix bug with links
+
+[33mcommit 8e112503efcf68f4dfcc6e6a9010faa47868ad46[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 22:46:19 2017 +0300
+
+    remove code duplication && fix bug with links
+
+[33mcommit 15fb2dd4306b30fe057c63b5812813242d912a4e[m
+Merge: 6a046be eeb20cd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 21:31:02 2017 +0300
+
+    Merge pull request #183 from YarGU-Demidov/rc-0.0.1
+    
+    list of pages
+
+[33mcommit eeb20cdb8045dd3a1d2ba59d11a5b87cfc1e0af5[m[33m ([m[1;33mtag: 0.0.1[m[33m)[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 21:30:34 2017 +0300
+
+    file rename
+
+[33mcommit 81aac0b02c8942cf943c2c1831b4c0a3f1d76ba6[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 21:29:44 2017 +0300
+
+    added pages list
+
+[33mcommit 6a046be8a440403341c2ca787a4cc818a9a302ea[m
+Merge: ca3583a 98b56ac
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 06:36:29 2017 +0300
+
+    Merge pull request #181 from YarGU-Demidov/rc-0.0.1
+    
+    news list done
+
+[33mcommit 98b56acee2337c9d727fc18e88de18a345b5296f[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Oct 1 06:36:14 2017 +0300
+
+    news list done
+
+[33mcommit ca3583adc27e0acd8f7c78bde47dac8ef62857f2[m
+Merge: d045b97 5e769a1
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 29 04:03:54 2017 +0300
+
+    Merge pull request #180 from YarGU-Demidov/rc-0.0.1
+    
+    bl updates
+
+[33mcommit 5e769a131e81fd3c01fa99c1b1549b25e594ef63[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Sep 29 04:03:25 2017 +0300
+
+    many bl updates
+
+[33mcommit 43c5de89edd027a0f28703c9d4c91bcd03d84d28[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Sep 27 04:47:56 2017 +0300
+
+    fix bug with forgotten interface (forget to inject it)
+
+[33mcommit e8ffa62463186564b9409917e34c10bd512cd766[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Sep 27 04:46:02 2017 +0300
+
+    massive changes for all stuff we have
+
+[33mcommit d045b97f48e0ecfac87ca8dc5eded34c41c0a788[m
+Merge: fd63103 832d8bd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 25 17:40:14 2017 +0300
+
+    Merge pull request #178 from YarGU-Demidov/rc-0.0.1
+    
+    major changes for admin pages
+
+[33mcommit 832d8bd7a2b71b2b26632fa6ab8fb6f178d48653[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Sep 25 17:39:52 2017 +0300
+
+    major changes for admin pages
+
+[33mcommit fd6310314e91ce8620719a01b7fb389c619fd9a5[m
+Merge: c02c2cb bec5ccd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Sep 24 02:26:44 2017 +0300
+
+    Merge pull request #177 from YarGU-Demidov/rc-0.0.1
+    
+    huge improvements
+
+[33mcommit bec5ccd5171decef6fe923d2338a9e48e0a5161d[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Sep 24 02:26:09 2017 +0300
+
+    huge improvements
+     * now using pattern Specification
+     * completely rewritten domain logic to Repository pattern
+     * fix all entities
+     * remove old tests
+
+[33mcommit 0ca949af0643c84f92f6f7e7b83372954ba2035f[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 21 05:08:08 2017 +0300
+
+    changed Specifications and created Repository project
+
+[33mcommit 7204cc37c80dae2bbe2b1133f460dc4333518ea7[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 21 00:45:50 2017 +0300
+
+    specs improvements & queryable extensions added
+
+[33mcommit c02c2cb5b027e8cc1c29cb0f4f326ba5396977bf[m
+Merge: 860fecd d55f199
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 20 04:51:03 2017 +0300
+
+    Merge pull request #176 from YarGU-Demidov/rc-0.0.1
+    
+    some improvements
+
+[33mcommit d55f199b9b8ca08c343401dcc805d5c416dc45e3[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Sep 20 04:50:16 2017 +0300
+
+    Implemented Specification pattern
+
+[33mcommit a32a5f816cfca0f8f96bc4c0b094f7436ac19b6d[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 19 19:18:45 2017 +0300
+
+    change tabs to spaces and cleanup code with resharper
+
+[33mcommit 0542c7ebe95178650b4fc0c1ebcc9ee63d92eb1a[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 19 19:09:55 2017 +0300
+
+    small improvements
+
+[33mcommit f0e6df256414ee7052ebeb34d6f8274f1e0a5a82[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 19 04:10:45 2017 +0300
+
+    markup done
+     + add last 2 pages
+     + fix existing markup
+     + remove unnecessary data from seeding (posts)
+
+[33mcommit 860fecd0ad23ab168ef21c4fbb660e8a314bf90f[m
+Merge: 1dd420f 8bda09f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 22:39:38 2017 +0300
+
+    Merge pull request #169 from YarGU-Demidov/rc-0.0.1
+    
+    small improvements
+
+[33mcommit 8bda09f6c785b4c69806202551f71929805b6631[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 22:38:37 2017 +0300
+
+    admin improvements
+      + add basic admin stuff
+      + fix small problem with routing
+
+[33mcommit 1dd420f65abaf2f25c9bc1789334913da953aa93[m
+Merge: b9b6e9d 6e59f4c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 18:37:23 2017 +0300
+
+    Merge pull request #168 from YarGU-Demidov/0.0.1/feature/dav/adding-static-pages
+    
+    0.0.1/feature/dav/adding static pages
+
+[33mcommit d0f699913ce37cbe278adde5d56d50871d67228f[m
+Merge: 29fec68 6e59f4c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 18:36:44 2017 +0300
+
+    Merge pull request #167 from YarGU-Demidov/0.0.1/feature/dav/adding-static-pages
+    
+    The ability to post articles
+
+[33mcommit 6e59f4cc0e1f127bed8e0f734cf28930d6992f89[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 18:35:38 2017 +0300
+
+    Update MainLayout.cshtml
+
+[33mcommit 0102196b164f2ce01c97cf18567db323ccb28547[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 18 18:35:14 2017 +0300
+
+    remove changes in comp.security link
+
+[33mcommit 6f0b5b6ae2ba78b5f0474248996a16f727fca9f7[m
+Author: Andrey <undredevyatkin@yandex.ru>
+Date:   Mon Sep 18 09:57:45 2017 +0300
+
+    Changing GetPersonByNames method
+
+[33mcommit d67ac5374b467ad376e07ffc9d3fa464beaec06b[m
+Author: andrey.devyatkin <undredevyatkin@yandex.ru>
+Date:   Mon Sep 18 09:54:59 2017 +0300
+
+    Changing spaces to tabs
+
+[33mcommit f621fffc6c16c891ea810191cc8ba33e3022585d[m
+Author: andrey.devyatkin <undredevyatkin@yandex.ru>
+Date:   Sun Sep 17 21:07:59 2017 +0300
+
+    Adding static pages
+
+[33mcommit b9b6e9d2ef0876404319e1f0e38d5b03e02f14bf[m
+Merge: a96b721 29fec68
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 05:14:17 2017 +0300
+
+    Merge pull request #166 from YarGU-Demidov/rc-0.0.1
+    
+    news controller added
+
+[33mcommit 29fec68880b9ab4d0e672b4545ad4a65be7fe374[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 05:14:00 2017 +0300
+
+    news controller added
+
+[33mcommit a96b721437f7449a5569781d76b769f711394bb3[m
+Merge: 0d6dd3a be0da8b
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 04:44:48 2017 +0300
+
+    Merge pull request #165 from YarGU-Demidov/rc-0.0.1
+    
+    few small changes
+
+[33mcommit be0da8b811d504ffdb0c6872c2a07b0799380656[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 04:44:32 2017 +0300
+
+    few small changes
+
+[33mcommit 0d6dd3a3b0a15e5eb7f92fe10f3332aa77eca5c1[m
+Merge: 41b6a9a 5c343bb
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 04:06:26 2017 +0300
+
+    Merge pull request #164 from YarGU-Demidov/rc-0.0.1
+    
+    more site stuff
+
+[33mcommit 5c343bb35b30b22457cad5f21fe167ec4d415212[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 14 04:06:05 2017 +0300
+
+    more site stuff
+
+[33mcommit 41b6a9abd26b43a18ec61a62a7f13016b16513bc[m
+Merge: db5b08d 0f32d46
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 23:41:31 2017 +0300
+
+    Merge pull request #163 from YarGU-Demidov/rc-0.0.1
+    
+    fix a few strange bugs
+
+[33mcommit 0f32d46404a6b936162dacb818acadb1f6d94e6c[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 23:41:14 2017 +0300
+
+    fix a few strange bugs
+
+[33mcommit db5b08d456cc25399b8e1efe18ad640a6443b191[m
+Merge: 4f1386e b650423
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 05:04:00 2017 +0300
+
+    Merge pull request #162 from YarGU-Demidov/rc-0.0.1
+    
+    more features
+
+[33mcommit b65042364ab17c6bfb53cd0ec7045f7f44133730[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 05:03:05 2017 +0300
+
+     + remove context from base controller
+     + add new temp area for first admin
+     + add some methods to facade
+     + replace some old logic with user validation with direct context usage to new (facades and domain logic)
+
+[33mcommit 4f1386e4f9b9a6baed4156e35728977bd7e75cc3[m
+Merge: 0766954 a4f92d3
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 01:43:36 2017 +0300
+
+    Merge pull request #161 from YarGU-Demidov/rc-0.0.1
+    
+    added paginator with bl && tests
+
+[33mcommit a4f92d32ca6e822a1a530a035be64dd23574e6d9[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 13 01:02:39 2017 +0300
+
+    added paginator with bl && tests
+
+[33mcommit 0766954a4450ba769746d24a676f688a2b586851[m
+Merge: 7f809d4 1bbc7d9
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:57:01 2017 +0300
+
+    Merge pull request #160 from YarGU-Demidov/rc-0.0.1
+    
+    Update README.md
+
+[33mcommit 1bbc7d9ad7b7a6fc2af2e8a6ac2c32cb4cc69912[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:56:44 2017 +0300
+
+    Update README.md
+
+[33mcommit 7f809d4e70c23a2fc1e3003dc855e71d4fa4ecc0[m
+Merge: 15cb0c6 3a02016
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:53:46 2017 +0300
+
+    Merge pull request #159 from YarGU-Demidov/rc-0.0.1
+    
+    update readme.md
+
+[33mcommit 3a020165077643ec64bd9289b28aaae91bf26733[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:53:09 2017 +0300
+
+    Update README.md
+
+[33mcommit 063245335041dd8fe29b88cf9e904d62dfbced26[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:52:38 2017 +0300
+
+    Update README.md
+
+[33mcommit 15cb0c6bb4031f819d361b76e0c604006d7b7f98[m
+Merge: 9b0206e da44b8f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:50:39 2017 +0300
+
+    Merge pull request #158 from YarGU-Demidov/rc-0.0.1
+    
+    Update README.md
+
+[33mcommit da44b8fb230d873756c53abb4aaac2823e010967[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:50:26 2017 +0300
+
+    Update README.md
+
+[33mcommit 9b0206e67a4ab1dc6b4bb5123b5983b3ac4d3192[m
+Merge: 4a57ee4 7779cd2
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:48:35 2017 +0300
+
+    Merge pull request #157 from YarGU-Demidov/rc-0.0.1
+    
+    huge changes:
+
+[33mcommit 7779cd2f67a015c57d693a264f0c4b13a729b866[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 01:48:07 2017 +0300
+
+    huge changes:
+     * domain logic base method names.
+     * new tests
+
+[33mcommit 4a57ee419a5636c8c8342da269563f71680df1b0[m
+Merge: 7fc04b5 8830bbd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 00:32:49 2017 +0300
+
+    Merge pull request #156 from YarGU-Demidov/rc-0.0.1
+    
+    added post seo setting tests
+
+[33mcommit 8830bbd8629823ca477da5eac79efad7013a2e1a[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Tue Sep 12 00:32:23 2017 +0300
+
+    added post seo setting tests
+
+[33mcommit 7fc04b599c2ee70581b0bf09af53968d58dd76fb[m
+Merge: fa8b8a7 f2e3e25
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 11 21:57:21 2017 +0300
+
+    Merge pull request #155 from YarGU-Demidov/rc-0.0.1
+    
+    added test
+
+[33mcommit f2e3e25d779c080ffb0790415937043c20c18ff3[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Sep 11 21:56:55 2017 +0300
+
+    added test
+
+[33mcommit fa8b8a742e0ac6a4f7325c670c223b2adf930992[m
+Merge: 8783066 2a51982
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 11 01:59:33 2017 +0300
+
+    Merge pull request #154 from YarGU-Demidov/rc-0.0.1
+    
+    some bugs fixed && almost all tests for posts logic was written
+
+[33mcommit 2a519824db45c08296005d3642e43a84b69bbf8d[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Mon Sep 11 01:59:07 2017 +0300
+
+    some bugs fixed && almost all tests for posts logic was written
+
+[33mcommit 8783066e00842bcd8018c7e6cfac72a6b5de44a9[m
+Merge: b9d7e19 e8cf216
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Sep 10 16:33:07 2017 +0300
+
+    Merge pull request #152 from YarGU-Demidov/rc-0.0.1
+    
+    added persons logic tests
+
+[33mcommit e8cf216ce1fcbb10502892702d9d1363d6a12738[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Sep 10 16:32:37 2017 +0300
+
+    added persons logic tests
+
+[33mcommit b9d7e19eb7644efb1a5f1d6993eb1ac014d24ec3[m
+Merge: 0fc8983 5ce4ada
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Sep 10 05:31:39 2017 +0300
+
+    Merge pull request #151 from YarGU-Demidov/rc-0.0.1
+    
+    many notable changes.
+
+[33mcommit 5ce4ada5ca3c7de265a552bd614e7840d6a088fe[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sun Sep 10 05:31:01 2017 +0300
+
+    many notable changes.
+    + fixed a few bugs in db configuration
+    + added seeded news
+    + rebuild migration
+    + added ability to seed data without changing folder or switching startup projects
+
+[33mcommit 0fc89839bf23f9e9885a7dbaa7b4d5a233b1cc2f[m
+Merge: ec1400b 01ce875
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 9 03:50:40 2017 +0300
+
+    Merge pull request #150 from YarGU-Demidov/rc-0.0.1
+    
+    more groups tests features
+
+[33mcommit 01ce875298dcfa5d32a794b5153d0c8f05779481[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Sep 9 03:50:14 2017 +0300
+
+    more groups tests features
+
+[33mcommit ec1400b05aedaa11fa9a87a30af88b00e2cbaac4[m
+Merge: c048a52 7558706
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 9 02:06:24 2017 +0300
+
+    Merge pull request #149 from YarGU-Demidov/rc-0.0.1
+    
+    code refactoring && added groups logic tests
+
+[33mcommit 75587061881720206444d2d907760c2ef807767e[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Sat Sep 9 02:05:55 2017 +0300
+
+    code refactoring && added groups logic tests
+
+[33mcommit c048a52f502ed587145e224bfbf6449a639d783c[m
+Merge: e8e3aed e87620a
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 8 01:26:39 2017 +0300
+
+    Merge pull request #148 from YarGU-Demidov/rc-0.0.1
+    
+    fix bug with wrong condition for selecting news from db
+
+[33mcommit e87620ad5dcf6bf8bb258040091948ae08da3335[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Sep 8 01:26:25 2017 +0300
+
+    fix bug with wrong condition for selecting news from db
+
+[33mcommit e8e3aed9810028d685d135dd11a05666178212af[m
+Merge: 3e1b44b 75373a6
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 8 00:22:12 2017 +0300
+
+    Merge pull request #147 from YarGU-Demidov/rc-0.0.1
+    
+    tests for FileLogic
+
+[33mcommit 75373a66ebf71e3b1cea8b5e523c25a48679b5eb[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Fri Sep 8 00:21:26 2017 +0300
+
+    tests for FileLogic
+
+[33mcommit 3e1b44b937bd81695f633eed9e494c6df9eeaf4c[m
+Merge: 94c6fb6 7396ca2
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Sep 7 04:02:01 2017 +0300
+
+    Merge pull request #146 from YarGU-Demidov/rc-0.0.1
+    
+    small fix for news paging (which doesn't exists for now)
+
+[33mcommit 7396ca2b6b9db22041d305d1f975d225d4f50951[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 7 04:01:40 2017 +0300
+
+    small fix for news paging (which doesn't exists for now)
+
+[33mcommit 94c6fb62eaae0c1b153a45b712aaddeb560fbd61[m
+Merge: 6807311 fad8427
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Sep 7 03:49:54 2017 +0300
+
+    Merge pull request #145 from YarGU-Demidov/rc-0.0.1
+    
+    news loads from db
+
+[33mcommit fad842702687a87d7c08ab2c16043785a6c7d323[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Thu Sep 7 03:49:32 2017 +0300
+
+    news loads from db
+
+[33mcommit 68073119934287eacd03805baee54bf1d9af8958[m
+Merge: bf45d10 06fe02e
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 23:34:20 2017 +0300
+
+    Merge pull request #144 from YarGU-Demidov/rc-0.0.1
+    
+    small fixes
+
+[33mcommit 06fe02e69af03d2912e0f54a425655c3b86f15ba[m
+Author: mokeev1995 <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 23:33:47 2017 +0300
+
+    small fixes
+
+[33mcommit bf45d10161087c99e3330174df0d8a9399163639[m
+Merge: 206faed d4d5b78
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 17:50:40 2017 +0300
+
+    Merge pull request #143 from YarGU-Demidov/rc-0.0.1
+    
+    ordering
+
+[33mcommit d4d5b78db8c0c363bb6e3507b45aac68147dac22[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 17:50:09 2017 +0300
+
+    problem with ordering fixed 2
+
+[33mcommit 528ce51edb9b5a458651419d2f2cd382d2f7fcaa[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 17:43:19 2017 +0300
+
+    problem with ordering fixed
+
+[33mcommit 206faed4762aa64c839a2d305844a5d0857280fa[m
+Merge: b3b6e25 ee66416
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 17:20:11 2017 +0300
+
+    Merge pull request #142 from YarGU-Demidov/rc-0.0.1
+    
+    replace key at post type model
+
+[33mcommit ee66416db575d98f4272bff7b6a8cdf0a031e90c[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 17:19:39 2017 +0300
+
+    replace key at post type model
+
+[33mcommit b3b6e258c00022d892d0849cf132b2cd0f7e0832[m
+Merge: 384ee7e 6b8437b
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 00:13:26 2017 +0300
+
+    Merge pull request #141 from YarGU-Demidov/rc-0.0.1
+    
+    many new code & features was added
+
+[33mcommit 6b8437b95f0fddf52689371bb93cfcd24531a5ab[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Sep 6 00:11:41 2017 +0300
+
+    many new code & features was added
+
+[33mcommit 384ee7ece6562ab0bf7d248734ee06d4becbb8e3[m
+Merge: 8b1a82f 13e2bf3
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 4 20:43:11 2017 +0300
+
+    Merge pull request #140 from YarGU-Demidov/rc-0.0.1
+    
+    news item view created
+
+[33mcommit 13e2bf322e40697e393d1a4ddd7b3ca81393e37b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Mon Sep 4 20:42:53 2017 +0300
+
+    news item view created
+
+[33mcommit 8b1a82f81af99a3b999b29f252f4dee701ef2f26[m
+Merge: a06db5a ddbbe1e
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 4 03:05:24 2017 +0300
+
+    Merge pull request #139 from YarGU-Demidov/rc-0.0.1
+    
+    add caching and fix typo in IBusinessLogicManger
+
+[33mcommit ddbbe1e31ed7d74e217daf02c9871a11d8378248[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Mon Sep 4 03:05:07 2017 +0300
+
+    add caching and fix typo in IBusinessLogicManger
+
+[33mcommit a06db5abbc7c0f1cf7121290df46b240b1d56066[m
+Merge: b32c168 12afc9c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Sep 3 04:22:30 2017 +0300
+
+    Merge pull request #138 from YarGU-Demidov/rc-0.0.1
+    
+    bugfixes
+
+[33mcommit 12afc9c11aecd5d2a9c9900454d4385d23909068[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Sep 3 04:22:04 2017 +0300
+
+    fix doubling in log, add production env
+
+[33mcommit dc7d181b703333050236511061334ff065bce139[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Sep 3 03:50:22 2017 +0300
+
+    remove wrong lib from db proj
+
+[33mcommit b32c168b0b8ee665c06f1c03df8c8e963dca50e8[m
+Merge: a250531 09685d4
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Sep 3 00:54:42 2017 +0300
+
+    Merge pull request #137 from YarGU-Demidov/rc-0.0.1
+    
+    remove context interface and dispose from bl manager
+
+[33mcommit 09685d4b80cb20aa4d76a756bd314c0808fb8e9d[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Sep 3 00:53:25 2017 +0300
+
+    remove load tests
+
+[33mcommit 328ee725668b1d363860ca5fe3e1211a8f0a936e[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 23:57:36 2017 +0300
+
+    remove context interface
+
+[33mcommit 937f2c2841fc6f9f152d1be80f276b9c28aeb10b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 22:43:12 2017 +0300
+
+    added load tests
+
+[33mcommit a250531fba6b19d87d4eff1f8dc1fecdc6e5af69[m
+Merge: 9447dac 3e4ddf2
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:39:27 2017 +0300
+
+    Merge pull request #136 from YarGU-Demidov/rc-0.0.1
+    
+    fix bugs
+
+[33mcommit 3e4ddf2b64249ccb9ac461659fe80aa3002ebfc6[m
+Merge: 5692b56 3d41fe7
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:38:31 2017 +0300
+
+    Merge branch 'rc-0.0.1' of github.com:YarGU-Demidov/math-site into rc-0.0.1
+
+[33mcommit 5692b56ff42a96f7ea5674d18ac7c08a0ec4d015[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:38:21 2017 +0300
+
+    extract interface to separate file.
+    fix bug with no title and free space with separator
+
+[33mcommit 3d41fe71c4016d4d6d1aeb4125dddce34a1d5ac2[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:36:23 2017 +0300
+
+    Update README.md
+
+[33mcommit ed4d7f96959b6efe5e2d4b50e0ec0382db5e69e1[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:34:59 2017 +0300
+
+    Update README.md
+
+[33mcommit 9447daca266638446fe8aa501a0a1628a7f64a3a[m
+Merge: 0b8f687 61d4516
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:26:26 2017 +0300
+
+    Merge pull request #135 from YarGU-Demidov/rc-0.0.1
+    
+    fix var name
+
+[33mcommit 61d4516475d460dbf78d783610ee95e5ed534851[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:26:06 2017 +0300
+
+    fix var name
+
+[33mcommit 0b8f68726a3217dbf1335eac564f7e13dbc8733f[m
+Merge: 3cfeea5 646ced5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:23:25 2017 +0300
+
+    Merge pull request #134 from YarGU-Demidov/rc-0.0.1
+    
+    fix bug with site setting facade and move some data(title for home an…
+
+[33mcommit 646ced58119535d5e542196ef5594c49456b2616[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 20:23:00 2017 +0300
+
+    fix bug with site setting facade and move some data(title for home and news pages) from code to db
+
+[33mcommit 3cfeea5dec3e77cde5c1cb4dec6f152382adad24[m
+Merge: 3b9344d 35390c2
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 19:57:36 2017 +0300
+
+    Merge pull request #133 from YarGU-Demidov/rc-0.0.1
+    
+    added sitesetting tests and fix bug
+
+[33mcommit 35390c2a316c5c346fc061425e6e59f450c6dcc5[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 19:56:49 2017 +0300
+
+    added sitesetting tests and fix bug
+
+[33mcommit 3b9344dd42621df3bf5ab1e40e3ae71be8535014[m
+Merge: 5bc1d7e 10b6906
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 19:04:32 2017 +0300
+
+    Merge pull request #132 from YarGU-Demidov/rc-0.0.1
+    
+    fix tests
+
+[33mcommit 10b69063bee4fef3611602d3a40cdcd5a8e42c9b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 19:03:40 2017 +0300
+
+    fix tests
+
+[33mcommit 5bc1d7ef9723d87c80b5d172bb1683b8760965e6[m
+Merge: d0610fc 03ac729
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 16:45:16 2017 +0300
+
+    Merge pull request #130 from YarGU-Demidov/0.0.1/feature/maa/added-huge-amout-of-tests-and-logic
+    
+    0.0.1/feature/maa/added huge amout of tests and logic
+
+[33mcommit 4ed82a36b466a138f453908a184000852200e40f[m
+Merge: d68a686 03ac729
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 16:45:12 2017 +0300
+
+    Merge pull request #131 from YarGU-Demidov/0.0.1/feature/maa/added-huge-amout-of-tests-and-logic
+    
+    tests and logic added
+
+[33mcommit 03ac729dbb5a74946971773fabf003ea9bff9465[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 2 16:44:28 2017 +0300
+
+    tests and logic added
+
+[33mcommit d0610fc679d645a3062369ef928b9c8d689fd672[m
+Merge: 1288872 dc11c52
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 02:16:51 2017 +0300
+
+    Merge pull request #129 from YarGU-Demidov/0.0.1/feature/maa/add-tests-for-facades
+    
+    added tests and extracted common things to separate project.
+
+[33mcommit d68a686c1199044b83f2e61d58401bac402d01d7[m
+Merge: 3ba2d5c dc11c52
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 02:16:49 2017 +0300
+
+    Merge pull request #128 from YarGU-Demidov/0.0.1/feature/maa/add-tests-for-facades
+    
+    added tests and extracted common things to separate project.
+
+[33mcommit dc11c524e3f069d3ec2bc0b2065b51dc5557d159[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 02:16:04 2017 +0300
+
+    added tests and extracted common things to separate project.
+
+[33mcommit 1288872cb7ed026924e542d4b71483ba31789240[m
+Merge: c81d2c4 3ba2d5c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 01:06:46 2017 +0300
+
+    Merge pull request #127 from YarGU-Demidov/rc-0.0.1
+    
+    fix facades tests project
+
+[33mcommit 3ba2d5cdd43f07a40b036a52ce1993d7048ed21b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 01:05:56 2017 +0300
+
+    fix facades tests project
+
+[33mcommit c81d2c421589588e1aa3e29b592cb5cac5e56531[m
+Merge: 84a60ce 9bba13c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 00:57:17 2017 +0300
+
+    Merge pull request #126 from YarGU-Demidov/0.0.1/feature/maa/significant-improvements
+    
+    significant improvements.
+
+[33mcommit c2865045edab4f50fc7d1d07ec2c2d98cf2fd29d[m
+Merge: 11044c8 9bba13c
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 00:57:14 2017 +0300
+
+    Merge pull request #125 from YarGU-Demidov/0.0.1/feature/maa/significant-improvements
+    
+    significant improvements.
+
+[33mcommit 9bba13ce7cc569a2d551de22cd259ed4f0211269[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Sep 1 00:56:20 2017 +0300
+
+    significant improvements.
+     - added facades project and first facade (of course with base class).
+     - remove wrong code from DAL (we call it "domain logic").
+     - add one more method to set indexes for entities in Entities Configuration.
+     - remove GUID id from site settings and replace it with plain text field called 'Key'
+     - renew Initial Migration
+
+[33mcommit 84a60ce0d9ad0847a87f45e75611a7661cbfcb38[m
+Merge: 609cba4 11044c8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 21:19:37 2017 +0300
+
+    Merge pull request #124 from YarGU-Demidov/rc-0.0.1
+    
+    update readme.md
+
+[33mcommit 11044c85f8ab947642c902b59cd1cec75b473a8a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 21:18:53 2017 +0300
+
+    update readme.md
+
+[33mcommit 609cba480f9cad0a9e3bb9b0c2329c70168f04b0[m
+Merge: 553acbd e335aa8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:29:52 2017 +0300
+
+    Merge pull request #123 from YarGU-Demidov/0.0.1/feature/maa/more-clear-domain-tests-base-class-look
+    
+    0.0.1/feature/maa/more clear domain tests base class look
+
+[33mcommit ab53950c14e27daa1824fac896b6fa2d4b11435b[m
+Merge: 4f065c4 e335aa8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:29:47 2017 +0300
+
+    Merge pull request #122 from YarGU-Demidov/0.0.1/feature/maa/more-clear-domain-tests-base-class-look
+    
+    Move common actions to base class
+
+[33mcommit e335aa89ab03ed1bd69a1a4faf7d4a620f392ad5[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:29:17 2017 +0300
+
+    Move common actions to base class
+     - move methods to base class
+     - create new constructor with interface
+
+[33mcommit 553acbd725e63eed025c456b169d5f5c0fa050e5[m
+Merge: 725f0cf 330ff1d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:15:06 2017 +0300
+
+    Merge pull request #121 from YarGU-Demidov/0.0.1/feature/maa/huge-code-improvements
+    
+    0.0.1/feature/maa/huge code improvements
+
+[33mcommit 4f065c42f522ef77e39931acd95aafc5d37ca68b[m
+Merge: 31c5778 330ff1d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:15:03 2017 +0300
+
+    Merge pull request #120 from YarGU-Demidov/0.0.1/feature/maa/huge-code-improvements
+    
+    huge code improvements.
+
+[33mcommit 330ff1d0c85445ca081dbf9365807750815ad87a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 20:14:35 2017 +0300
+
+    huge code improvements.
+     - remove duplicate code from each logic and move it into LogicBase and extracted interface from it. We have a generic class and interface now.
+     - use nameof instead of plain string in seeding names.
+     - added site settings seeder.
+     - create base class for domain tests.
+     - beautify and cleanup code with resharper.
+
+[33mcommit 725f0cfbc191681a168ab55b598b52690971e7dd[m
+Merge: f714983 a9ccbd5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 11:42:12 2017 +0300
+
+    Merge pull request #119 from YarGU-Demidov/0.0.1/feature/maa/more-notable-changes
+    
+    0.0.1/feature/maa/more notable changes
+
+[33mcommit 31c5778bdac7f500d34520766ef71aa6948aa7d1[m
+Merge: 1bdcbb2 a9ccbd5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 11:42:07 2017 +0300
+
+    Merge pull request #118 from YarGU-Demidov/0.0.1/feature/maa/more-notable-changes
+    
+    more notable changes:
+
+[33mcommit a9ccbd5e587da47844fec59de8a73c6dd21fa272[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Aug 31 11:41:09 2017 +0300
+
+    more notable changes:
+     - change method name for Entity Configuration (from SetPrimaryKey to SetKeys)
+     - add new entity (SiteSettings)
+     - rebuid first migration
+     - add logic and tests for SiteSettings
+     - new markup for site
+     - fix seeder
+     - fix path for seeder and entities
+
+[33mcommit f714983852f3d31eda8bb186bb16f880214893d1[m
+Merge: 5f7edb4 d55471b
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Aug 30 03:20:17 2017 +0300
+
+    Merge pull request #117 from YarGU-Demidov/0.0.1/feature/maa/add-layout-with-first-page
+    
+    - добавил общую реализацию фабрики контекста бд.
+
+[33mcommit 1bdcbb29a4d54eadc0a5127342b14c5ec8010a50[m
+Merge: 2c6ef22 d55471b
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Aug 30 03:20:14 2017 +0300
+
+    Merge pull request #116 from YarGU-Demidov/0.0.1/feature/maa/add-layout-with-first-page
+    
+    - добавил общую реализацию фабрики контекста бд.
+
+[33mcommit d55471beaeca7d6064b246a3a1d9e1123486f8e8[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Aug 30 03:19:36 2017 +0300
+
+    - добавил общую реализацию фабрики контекста бд.
+    - добавил начальный шаблон с вью-модельками для него
+
+[33mcommit 5f7edb41c2d11665de446c6ac02ac88e247ce02a[m
+Merge: e8ee5de 2c6ef22
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Aug 25 23:05:04 2017 +0300
+
+    Merge pull request #115 from YarGU-Demidov/rc-0.0.1
+    
+    Merge pull request #113 from YarGU-Demidov/0.0.1/feature/maa/switch-t…
+
+[33mcommit 2c6ef22ccb0ed22892e270b525330b7e3ec01a40[m
+Merge: c4fddef 09dfc38
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Aug 25 23:04:17 2017 +0300
+
+    Merge pull request #113 from YarGU-Demidov/0.0.1/feature/maa/switch-to-asp-net-core-2
+    
+    switch to asp.net core 2
+
+[33mcommit e8ee5de0aaab3b8883716adb1efc0d8d1dff656f[m
+Merge: 6ef693d 09dfc38
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Aug 25 23:04:00 2017 +0300
+
+    Merge pull request #114 from YarGU-Demidov/0.0.1/feature/maa/switch-to-asp-net-core-2
+    
+    0.0.1/feature/maa/switch to asp net core 2
+
+[33mcommit 09dfc38faedbd71ac320adb63cb9e3ca02eb3962[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Aug 25 23:01:27 2017 +0300
+
+    switch to asp.net core 2
+
+[33mcommit 6ef693d98c9dcd8cee8b16d0aaf51530ddeb80c6[m
+Merge: fd855e4 8881180
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 23 17:25:23 2017 +0300
+
+    Merge pull request #111 from YarGU-Demidov/0.0.1/feature/maa/more-refactorings
+    
+    0.0.1/feature/maa/more refactorings
+
+[33mcommit c4fddef9806704e98863275fd2b663725ea7b87a[m
+Merge: d16fbd1 8881180
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 23 17:25:18 2017 +0300
+
+    Merge pull request #112 from YarGU-Demidov/0.0.1/feature/maa/more-refactorings
+    
+    0.0.1/feature/maa/more refactorings
+
+[33mcommit 8881180f2dd3232531738b1d853612a62cd4b2f9[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Jul 23 17:24:41 2017 +0300
+
+    + add comments
+    + add field to post and user (Author of post)
+
+[33mcommit fd855e42c14a0414a6619dd785334c08707070b1[m
+Merge: b690f65 8a2d8c0
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 17:02:19 2017 +0300
+
+    Merge pull request #109 from YarGU-Demidov/0.0.1/feature/maa/add-more-tests-and-person-with-user
+    
+    0.0.1/feature/maa/add more tests and person with user
+
+[33mcommit d16fbd1b766b36e17206eb6ab592f9fea2f12acb[m
+Merge: b8a436e 8a2d8c0
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 17:02:16 2017 +0300
+
+    Merge pull request #110 from YarGU-Demidov/0.0.1/feature/maa/add-more-tests-and-person-with-user
+    
+    0.0.1/feature/maa/add more tests and person with user
+
+[33mcommit 8a2d8c085365832884a474ac3cd483e16e523bb9[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 17:01:26 2017 +0300
+
+    + new test person and user
+    + few new tests
+    + async execution actions with db
+
+[33mcommit b690f6572de031a5c1c014335d5f4184304de670[m
+Merge: fddb5f9 1acb667
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 15:06:20 2017 +0300
+
+    Merge pull request #108 from YarGU-Demidov/0.0.1/bugfix/maa/fix-bug-with-closing-connection
+    
+    0.0.1/bugfix/maa/fix bug with closing connection
+
+[33mcommit b8a436e2718db1eab8289ad08bc90138bd496262[m
+Merge: 9bba7ee 1acb667
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 15:06:17 2017 +0300
+
+    Merge pull request #107 from YarGU-Demidov/0.0.1/bugfix/maa/fix-bug-with-closing-connection
+    
+    0.0.1/bugfix/maa/fix bug with closing connection
+
+[33mcommit 1acb66776fbb1d477f61fe59586a88d0dad35b3d[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 15:05:26 2017 +0300
+
+    + fixed bug with Disposing connection
+    + small refactoring with executing reusable code
+
+[33mcommit fddb5f96741304ce575625f1e7431ea0362ddef7[m
+Merge: 5a33034 49e39d6
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 04:41:39 2017 +0300
+
+    Merge pull request #106 from YarGU-Demidov/0.0.1/feature/add-test-and-refactor-data-seedings
+    
+    0.0.1/feature/add test and refactor data seedings
+
+[33mcommit 9bba7eee003a6d4ac60ffc4c26a89606cad0943c[m
+Merge: bff1600 49e39d6
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 04:41:36 2017 +0300
+
+    Merge pull request #105 from YarGU-Demidov/0.0.1/feature/add-test-and-refactor-data-seedings
+    
+    0.0.1/feature/add test and refactor data seedings
+
+[33mcommit 49e39d65b25fc48ded4d357faf8745c957a80d8e[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 04:40:35 2017 +0300
+
+    + added more tests for BinaryHashPasswordsManagerTests
+    + created tests project for domain logic
+    + added some folders and basic class in test project for domain logic
+    + created TestDatabaseFactory for testing database features
+
+[33mcommit 5a33034bef9d81213583761b9169dc3d7030c471[m
+Merge: f33cef5 c4356b8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:38:56 2017 +0300
+
+    Merge pull request #104 from YarGU-Demidov/0.0.1/feature/maa/more-tests-for-pass-manager
+    
+    0.0.1/feature/maa/more tests for pass manager
+
+[33mcommit bff16000d4944707d4fd9bd6bf1a9325da7ba524[m
+Merge: d16435b c4356b8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:38:53 2017 +0300
+
+    Merge pull request #103 from YarGU-Demidov/0.0.1/feature/maa/more-tests-for-pass-manager
+    
+    0.0.1/feature/maa/more tests for pass manager
+
+[33mcommit c4356b8172c45662e8ee2a0d187e9c604702014a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:38:25 2017 +0300
+
+    + added more tests for sha512 pass manager
+
+[33mcommit f33cef57e2f71da8c63346d2618e0280f398b7be[m
+Merge: ef0550c 02c4b40
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:18:33 2017 +0300
+
+    Merge pull request #102 from YarGU-Demidov/0.0.1/bugfix/maa/fix-passwords-manager-with-tests
+    
+    0.0.1/bugfix/maa/fix passwords manager with tests
+
+[33mcommit d16435b513dab6763f64e7b19dfeb7860c349eef[m
+Merge: aab6cb8 02c4b40
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:18:29 2017 +0300
+
+    Merge pull request #101 from YarGU-Demidov/0.0.1/bugfix/maa/fix-passwords-manager-with-tests
+    
+    + added tests folder with small test
+
+[33mcommit 02c4b40e19613ff2f8376a891f2e937bf1f1ee02[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Jul 22 02:15:07 2017 +0300
+
+    + added tests folder with small test
+    + fixed passwords manager
+
+[33mcommit ef0550c518a86f00b0b3868f400fa2ab8053fc32[m
+Merge: 00a0a17 7b89f52
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Jul 20 20:17:40 2017 +0300
+
+    Merge pull request #100 from YarGU-Demidov/0.0.1/bugfix/maa/few-new-bugs-fixed
+    
+    0.0.1/bugfix/maa/few new bugs fixed
+
+[33mcommit aab6cb8ce59624ee2b3ca7c39139f6256fe07012[m
+Merge: 1410037 7b89f52
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Jul 20 20:17:35 2017 +0300
+
+    Merge pull request #99 from YarGU-Demidov/0.0.1/bugfix/maa/few-new-bugs-fixed
+    
+    0.0.1/bugfix/maa/few new bugs fixed
+
+[33mcommit 7b89f52fe54735796218af6f4f8e33d1388bd522[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Jul 20 20:17:00 2017 +0300
+
+    fixed all depended on old namespace classes
+
+[33mcommit 21102b234d82934c8b4904d1d2e1f3e045e6fdf9[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Jul 20 20:05:30 2017 +0300
+
+    + changed Models namespace and project name to Entities
+    + updated namepaces according to new namespace
+    + changed Byte[] to byte[]
+
+[33mcommit 00a0a17076848c755b4552c1581e53289b85a2fb[m
+Merge: 72eee91 8f1fb50
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:58:14 2017 +0300
+
+    Merge pull request #98 from YarGU-Demidov/0.0.1/bugfix/maa/change-passwords-field-type
+    
+    + changed passwords field type (string -> byte[])
+
+[33mcommit 1410037b6c6d5e34bd00e59178cddac5cc3fd9f8[m
+Merge: 128fef7 8f1fb50
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:58:08 2017 +0300
+
+    Merge pull request #97 from YarGU-Demidov/0.0.1/bugfix/maa/change-passwords-field-type
+    
+    + changed passwords field type (string -> byte[])
+
+[33mcommit 8f1fb501654133f003e37110f624bb6a48a17e20[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:57:26 2017 +0300
+
+    + changed passwords field type (string -> byte[])
+    + updated initial migration
+    + debug console now attach only if env is dev
+
+[33mcommit 128fef7a823ba333c89d899eda0c3e5fb330526e[m
+Merge: 506ed23 8796c8d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:18:05 2017 +0300
+
+    Merge pull request #95 from YarGU-Demidov/0.0.1/feature/create-readme
+    
+    Create README.md
+
+[33mcommit 72eee912f47a093735d5a3bc6b4356199249b63a[m
+Merge: 9356b7e 8796c8d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:17:55 2017 +0300
+
+    Merge pull request #96 from YarGU-Demidov/0.0.1/feature/create-readme
+    
+    0.0.1/feature/create readme
+
+[33mcommit 8796c8d8786d475d429d530af2c8f274241cfa0f[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Jul 16 15:16:12 2017 +0300
+
+    Create README.md
+
+[33mcommit 506ed23c0e82321a26fdda0620383679d2efd10c[m
+Merge: f9f4189 21a64f0
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun May 21 18:01:45 2017 +0300
+
+    Merge pull request #93 from YarGU-Demidov/0.0.1/bugfix/change-hash-for-passwords
+    
+    изменена хеш-функция с sha256 на sha512
+
+[33mcommit 9356b7e9761d571c9aec9f2e36fc771f21d7bb40[m
+Merge: 8f76d72 21a64f0
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun May 21 18:01:17 2017 +0300
+
+    Merge pull request #94 from YarGU-Demidov/0.0.1/bugfix/change-hash-for-passwords
+    
+    изменена хеш-функциф с sha256 на sha512
+
+[33mcommit 21a64f0aec300010386f1200ea60a7eb8b1ee53e[m
+Author: JuliaSlavnova <juliastar07@mail.ru>
+Date:   Sun May 21 17:51:02 2017 +0300
+
+    изменена хеш-функция с sha256 на sha512
+
+[33mcommit 8f76d72082f2f22f9fba53e15ba9f4e0d887317f[m
+Merge: 48eb72a 645c515
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat May 13 00:40:22 2017 +0300
+
+    Merge pull request #92 from YarGU-Demidov/0.0.1/feature/dav/added-subsystem-logic-for-files
+    
+    -добавлена логика подсистемы работы с файлами
+
+[33mcommit f9f41890d7e2c4bae5da04aed2adddf1594951a6[m
+Merge: 000c573 645c515
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat May 13 00:39:58 2017 +0300
+
+    Merge pull request #91 from YarGU-Demidov/0.0.1/feature/dav/added-subsystem-logic-for-files
+    
+    -добавлена логика подсистемы работы с файлами
+
+[33mcommit 645c5157d41e99fc4775f19c36d10f60a07a0f21[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Sat May 13 00:34:54 2017 +0300
+
+    -добавлена логика подсистемы работы с файлами
+    -отредактирована логика подсистемы работы с пользователями и личностями
+
+[33mcommit 000c573b8f2a20f1de52ea35563fcfc13abc47eb[m
+Merge: 8bd3ff0 31828e1
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri May 12 20:59:56 2017 +0300
+
+    Merge pull request #89 from YarGU-Demidov/0.0.1/feature/dav/updated-entities-and-relationship
+    
+    обновлены сущности и настроены связи между ними
+
+[33mcommit 48eb72ad9d925028776a9d98fa5101c0e2fbbb2c[m
+Merge: 468b034 31828e1
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri May 12 20:59:49 2017 +0300
+
+    Merge pull request #90 from YarGU-Demidov/0.0.1/feature/dav/updated-entities-and-relationship
+    
+    0.0.1/feature/dav/updated entities and relationship
+
+[33mcommit 31828e1c6c2b89ab91536d5964f68f38b48214d7[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Fri May 12 20:49:29 2017 +0300
+
+    почищены миграции
+
+[33mcommit 8e2bc9e94f8c0670e8dbf15602275f398fc6f73a[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Fri May 12 20:34:08 2017 +0300
+
+    обновлены сущности и настроены связи между ними
+
+[33mcommit 468b0345d764e42e056de6d418aedc3d131f6ad2[m
+Merge: 1392cef e03464f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed May 10 21:51:15 2017 +0300
+
+    Merge pull request #88 from YarGU-Demidov/0.0.1/bugfix/maa/fix-field-in-logic-base
+    
+    исправил поле на свойство
+
+[33mcommit 8bd3ff0e670d6f061a90367aef11f216704ff96c[m
+Merge: 1392cef e03464f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed May 10 21:51:11 2017 +0300
+
+    Merge pull request #87 from YarGU-Demidov/0.0.1/bugfix/maa/fix-field-in-logic-base
+    
+    исправил поле на свойство
+
+[33mcommit e03464f589dfe4bae4c2dd85bfc6d290e1f94a2e[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed May 10 21:49:50 2017 +0300
+
+    исправил поле на свойство
+
+[33mcommit 1392cefb7e4bc2551dca4acfc8315f87586a1b39[m
+Merge: ea9583f 97a29cd
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed May 10 20:38:42 2017 +0300
+
+    Merge pull request #85 from YarGU-Demidov/0.0.1/feature/maa/inject-logics-in-base-controller
+    
+    injected BusinessLogicManager into BaseController and removed test co…
+
+[33mcommit 97a29cd0e4000366e4fca09687c1df87c5315f1f[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed May 10 20:36:13 2017 +0300
+
+    injected BusinessLogicManager into BaseController and removed test code from home ctrl
+
+[33mcommit ea9583faa2863173ed06762b8a622b3fd3e77b3d[m
+Merge: f4d62a1 c6129e8
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue May 9 02:15:49 2017 +0300
+
+    Merge pull request #83 from YarGU-Demidov/0.0.1/feature/dav/modified-subsystems-logic
+    
+    0.0.1/feature/dav/modified subsystems logic
+
+[33mcommit c6129e83e75011d8b3b05386096591ee82b0da1e[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Tue May 9 02:08:28 2017 +0300
+
+    добавлена проверка доступа пользователя для работы с логикой
+
+[33mcommit 616ed352b7115756d8444d449d5c6061b002dc69[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Tue May 9 02:04:47 2017 +0300
+
+    Доработан базовый интерфейс контекста базы данных
+
+[33mcommit 5a53cbe6d2a97aeca3920a8eb7411dbd8c628946[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Tue May 9 00:53:23 2017 +0300
+
+    доработана логика подсистем: User, Group, Person
+
+[33mcommit f4d62a101651c43745c3ee952569fe3e78c3b45d[m
+Merge: 0f1c9e8 bfc03f3
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon May 8 19:41:25 2017 +0300
+
+    Merge pull request #81 from YarGU-Demidov/0.0.1/feature/maa/datatable-support
+    
+    наработки для работы с datatable
+
+[33mcommit bfc03f39e069000bed17ffc3b929df64f57b350d[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Mon May 8 19:39:49 2017 +0300
+
+    наработки для работы с datatable
+
+[33mcommit a85f70f34932bb5e8bb73d18ddab1b2c15f96143[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Sat May 6 00:04:06 2017 +0300
+
+    добавлена логика подсистемы работы с: группами, пользователями, личностями
+
+[33mcommit 0f1c9e829169659f3711ab858a49aae379b5b34f[m
+Merge: b06f9be 3c82f05
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Apr 27 01:40:01 2017 +0300
+
+    Merge pull request #78 from YarGU-Demidov/0.0.1/feature/sua/passwords-of-users
+    
+    Passwords
+
+[33mcommit 3c82f05e12c6c7a614cebcde324a0c01f2ec162b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Apr 27 01:37:50 2017 +0300
+
+    исправлены ошибки в проекте + заменены пробелы на табы
+
+[33mcommit 0a054b969ad70352f511ddb4a187eb510a42514f[m
+Author: JuliaSlavnova <juliastar07@mail.ru>
+Date:   Wed Apr 26 23:03:48 2017 +0300
+
+    Passwords
+
+[33mcommit b06f9be7affd5b6ef3dd5c84db7423c080056df2[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Apr 19 19:02:56 2017 +0300
+
+    fix typo in seedings
+
+[33mcommit de6738598e741c2009b4adfbf1d450f0158b16fe[m
+Merge: 2a005e0 6592cb0
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Apr 19 17:51:41 2017 +0300
+
+    Merge pull request #76 from YarGU-Demidov/0.0.1/feature/dav/data-seedings-and-entities-configurations
+    
+    добавлены тестовые данные и конфигурация сущностей
+
+[33mcommit 6592cb0930f806c7c2542108ce6e3a1f5cb60791[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Wed Apr 19 17:08:18 2017 +0300
+
+    добавлены тестовые данные и конфигурация сущностей
+
+[33mcommit 2a005e05f06cf0e2310382735fdc68be1e66bdc0[m
+Merge: e41266d c77e6c5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Apr 9 16:43:52 2017 +0300
+
+    Merge pull request #73 from YarGU-Demidov/0.0.1/feature/maa/export-password-equality-to-interface
+    
+    вынес в интерфейс сравнение паролей
+
+[33mcommit c77e6c59f74f8c629754771f6764a484d1a41616[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Apr 9 16:32:20 2017 +0300
+
+    вынес в интерфейс сравнение паролей
+
+[33mcommit e41266d3728c7c3aa12316fad758193494a02127[m
+Merge: 7fe30f4 f0b3832
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Apr 9 13:42:51 2017 +0300
+
+    Merge pull request #70 from YarGU-Demidov/0.0.1/bugfix/maa/required-must-not-be-required
+    
+    не всё, что было требуемым было реально требуемым, пофиксил
+
+[33mcommit f0b38326ea2e8ae401f588e685cf5c145971869b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Apr 9 13:41:28 2017 +0300
+
+    не всё, что было требуемым было реально требуемым, пофиксил
+
+[33mcommit 7fe30f42799c8ffbcf60648f3157ee3a40f59ff8[m
+Merge: 5e12012 4b0bd1d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Apr 9 01:54:51 2017 +0300
+
+    Merge pull request #68 from YarGU-Demidov/0.0.1/feature/dav/сonfigure-entity-relationships
+    
+    отредактированны сущности и настроены связи между ними
+
+[33mcommit 4b0bd1dd9b5a6728eb1b497466e5bebfa2ba2d90[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Sun Apr 9 01:46:09 2017 +0300
+
+    заменены пробелы на табы
+
+[33mcommit 85d7e96d908289486a4b6063269c233704ddc13c[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Sun Apr 9 01:27:44 2017 +0300
+
+    все пробелы в коде заменены на табы
+
+[33mcommit 1a07991f7128db32885e2b45986753c79daebd07[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Sun Apr 9 00:41:04 2017 +0300
+
+    отредактированны сущности и настроены связи между ними
+
+[33mcommit 5e120123a5bdea1d56c0f9637fb114014aab761c[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Apr 7 21:27:15 2017 +0300
+
+    Новое API для списка пользователей
+     - добавлена обработка списка пользователей с различной группировкой (возрастание, убывание)
+     - выключил запуск браузера по-умолчанию
+     - обновил зависимости для некоторых проектов
+
+[33mcommit dc53ba8e4691923bd63cea35eef69235d7e62cae[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Apr 5 02:01:22 2017 +0300
+
+    теперь это можно даже запустить и будет работать:
+     - фиксанул модель групп (лишние поля не давали делать нормальную миграцию), фикс путём комментирования нового кода.
+     - добавил новую миграцию с минимумом изменений
+
+[33mcommit 663904d7842e22c1854046087821b96632b0c653[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 23:33:45 2017 +0300
+
+    - обновил Newtonsoft.JSON до 10.0.2
+     - фиксанул модели, чтоб можно было запускать сервер
+     - отрефакторил seeding данных
+     - отрефакторил настройку сущностей/моделей
+
+[33mcommit a4328f6f373adcc2a03ae9c1a3e250c9743cced2[m
+Merge: bf31a31 0f4b8d4
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 14:03:00 2017 +0300
+
+    Merge pull request #62 from YarGU-Demidov/0.0.1/feature/maa/create-license
+    
+    Create LICENSE.md
+
+[33mcommit 0f4b8d4cdc9509abb7d195162a4093c66c9f4e42[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 14:01:17 2017 +0300
+
+    Create LICENSE.md
+
+[33mcommit bf31a315ec82ce27a8c9943039a1158337c58e05[m
+Merge: 2f02d68 997f255
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:57:17 2017 +0300
+
+    Merge pull request #57 from YarGU-Demidov/revert-56-dev/bugfix/maa/replace-whitespaces-with-tabs
+    
+    Revert "Dev/bugfix/maa/replace whitespaces with tabs"
+
+[33mcommit 997f2552abd187765610b1a136bf54084fa3e0c3[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:57:03 2017 +0300
+
+    Revert "Dev/bugfix/maa/replace whitespaces with tabs"
+
+[33mcommit 2f02d683b47093b90df5ca12d320102f47a62f8e[m
+Merge: fe44435 3b7f7e5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:55:56 2017 +0300
+
+    Merge pull request #56 from YarGU-Demidov/dev/bugfix/maa/replace-whitespaces-with-tabs
+    
+    Dev/bugfix/maa/replace whitespaces with tabs
+
+[33mcommit fe4443577c27064a978e0cd22e1a4086fdb6049d[m
+Merge: 56af77f a0ff3b4
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:55:39 2017 +0300
+
+    Merge pull request #55 from YarGU-Demidov/0.0.1/bugfix/maa/replace-whitespaces-with-tabs
+    
+    заменил пробелы табами
+
+[33mcommit 3b7f7e5d1996a15bba79467984473b5046680645[m
+Merge: 0e1e2e9 a0ff3b4
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:55:10 2017 +0300
+
+    Merge remote-tracking branch 'origin/0.0.1/bugfix/maa/replace-whitespaces-with-tabs' into dev/bugfix/maa/replace-whitespaces-with-tabs
+
+[33mcommit a0ff3b433ec326fec01b869c859fc90ad4c0f92d[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:49:42 2017 +0300
+
+    заменил пробелы табами
+
+[33mcommit 0e1e2e96fd1f2c0865f913fa8284eeb86815db60[m
+Merge: 7abd450 544e90d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:33:31 2017 +0300
+
+    Merge pull request #54 from andvtkn/0.0.1/feature/dav/create-models
+    
+    добавленны новые сущности и отредактированны старые
+
+[33mcommit 56af77f7c636dbc133e006fd7e4301a2d46c90cc[m
+Merge: bd7e329 544e90d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Tue Apr 4 13:33:27 2017 +0300
+
+    Merge pull request #53 from andvtkn/0.0.1/feature/dav/create-models
+    
+    добавленны новые сущности и отредактированны старые
+
+[33mcommit 544e90d0066fed75de7b05ab1773f55e12640fe7[m
+Author: andvtkn <undredevyatkin@yandex.ru>
+Date:   Tue Apr 4 01:32:13 2017 +0300
+
+    добавленны новые сущности и отредактированны старые
+
+[33mcommit 7abd450a5972edb5bfd972af3906b87f8466b240[m
+Merge: 71f90b9 50546c6
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Apr 3 02:15:41 2017 +0300
+
+    Merge pull request #51 from YarGU-Demidov/0.0.1/bugfix/maa/remove-old-interface-and-fix-bug-with-skip-take
+    
+     - remove old interface for dbcontext
+
+[33mcommit bd7e329de451187dc1a1da8333c7bde643ef8724[m
+Merge: 99bfde7 50546c6
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Apr 3 02:15:37 2017 +0300
+
+    Merge pull request #52 from YarGU-Demidov/0.0.1/bugfix/maa/remove-old-interface-and-fix-bug-with-skip-take
+    
+     - remove old interface for dbcontext
+
+[33mcommit 50546c66ab223244ce91e5c1d1e358f9739a8d18[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Apr 3 02:14:05 2017 +0300
+
+     - remove old interface for dbcontext
+     - inject mathdbcontext directly to controllers
+     - fix bug with skip-take (still workaroud)
+
+[33mcommit 71f90b9c9c17b8589ea014766635aed835429282[m
+Merge: 8886665 99bfde7
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 03:34:42 2017 +0300
+
+    Merge pull request #50 from YarGU-Demidov/rc-0.0.1
+    
+    Rc 0.0.1
+
+[33mcommit 99bfde7f53b213b033997fe43096aab1df371390[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 03:34:15 2017 +0300
+
+    replace info with warn
+
+[33mcommit 7a0491b41f04027af0545fc31cbb31cc65c3a052[m
+Merge: 14ebe2f 370670e
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 03:31:33 2017 +0300
+
+    Merge pull request #49 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    updated ef layer
+
+[33mcommit 888666534f9dcac5275a49fa2c21727eed936daa[m
+Merge: 98f6ed3 370670e
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 03:31:11 2017 +0300
+
+    Merge pull request #48 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    updated ef layer
+
+[33mcommit 370670e57e958c647861eecf0371735a14680208[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 03:29:38 2017 +0300
+
+    updated ef layer
+
+[33mcommit 14ebe2f2b36f1ac8d0e32124380a822cf03503ed[m
+Merge: bf02a90 9197518
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 02:37:53 2017 +0300
+
+    Merge pull request #46 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    remove font
+
+[33mcommit 98f6ed3698c5247f521dcdcbc98f246698adbd6b[m
+Merge: 2afcce5 9197518
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 02:37:48 2017 +0300
+
+    Merge pull request #47 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    remove font
+
+[33mcommit 9197518afe2806689d39a050e8a98e5f16308afa[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 02:36:51 2017 +0300
+
+    remove font
+
+[33mcommit 2afcce54ad62bef36266e06133f2a61d767757f9[m
+Merge: e6ce799 f77bc53
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 01:45:00 2017 +0300
+
+    Merge pull request #44 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    новые фишки для менюхи
+
+[33mcommit bf02a90bf69b0b611513257643d42ee1ffbfe435[m
+Merge: 1338459 f77bc53
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 01:44:55 2017 +0300
+
+    Merge pull request #43 from YarGU-Demidov/0.0.1/feature/new-menu-features
+    
+    новые фишки для менюхи
+
+[33mcommit f77bc53b639aa8d040456bb0d27936e0b3fece25[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Mar 26 01:43:30 2017 +0300
+
+    новые фишки для менюхи
+
+[33mcommit e6ce799e8cb2621146b1bbe5ac318d35b732ca34[m
+Merge: 93417b4 1338459
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Mar 17 23:29:50 2017 +0300
+
+    Merge pull request #40 from YarGU-Demidov/rc-0.0.1
+    
+    Rc 0.0.1
+
+[33mcommit 1338459896618f140232cabd0c48a91f73c4f54d[m
+Merge: 1540413 c1e6137
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Mar 17 22:51:37 2017 +0300
+
+    Merge pull request #39 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit 93417b49aa869997c90bcfdc91a412b20a5e13a2[m
+Merge: a1a6154 c1e6137
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Mar 17 22:51:33 2017 +0300
+
+    Merge pull request #38 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit c1e61373bba80eef4efdb162911291a1738bf112[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Mar 17 22:49:36 2017 +0300
+
+    - добавил конструкторов для меню-айтемов
+     - удалил лишний метод у апи-котроллера для меню-итемов
+     - удалил ненужный интерфейс IApiCompatible.cs
+
+[33mcommit 82ef40084fac71c58395880231421bb7b64daaae[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Mar 16 01:55:28 2017 +0300
+
+    update some code
+
+[33mcommit d83e0c014409c1ef1857cdbd466feb23bb013fa7[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Mar 9 11:38:33 2017 +0300
+
+    updated to bootstrap 4
+    updated logging
+    updated some api controllers names
+
+[33mcommit 1540413808790c67ec64dea9a50ea00eebedf89b[m
+Merge: d000b5c 150bfa5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 22:32:42 2017 +0300
+
+    Merge pull request #36 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    fix
+
+[33mcommit a1a615444018ebee6caf71e9e8c6a62b03b2b182[m
+Merge: 6bf1b1d 150bfa5
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 22:32:38 2017 +0300
+
+    Merge pull request #37 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    fix
+
+[33mcommit 150bfa59070a8cdc374ef3b7946a577ffb8b8128[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 19:38:02 2017 +0300
+
+    fix
+
+[33mcommit 6bf1b1d4e610335a5f866bf4a5d0049a867ff326[m
+Merge: b62d344 f156482
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 19:12:48 2017 +0300
+
+    Merge pull request #35 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit d000b5c872cad5f0b21cb566d04a640b1a6d28d8[m
+Merge: 02e26de f156482
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 19:12:44 2017 +0300
+
+    Merge pull request #34 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    remvoe files
+
+[33mcommit f156482964d76b3170a2bfd1213ca5714f6e7a11[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 19:10:56 2017 +0300
+
+    remvoe files
+
+[33mcommit 02e26de8a0a4e9807a64a44525c7c5cef60bb613[m
+Merge: a20b8ae e7d5177
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 18:41:24 2017 +0300
+
+    Merge pull request #32 from YarGU-Demidov/0.0.1/feature/set-first-personal-area
+    
+    добавлена первая до-тестовая версия верстки личного кабинета
+
+[33mcommit b62d344e5f9221e580dd0f004611ab8c44e1cbe5[m
+Merge: 077b806 e7d5177
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 18:41:15 2017 +0300
+
+    Merge pull request #33 from YarGU-Demidov/0.0.1/feature/set-first-personal-area
+    
+    0.0.1/feature/set first personal area
+
+[33mcommit e7d517785911203a38412caae6644a7e71c03b93[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 18:37:18 2017 +0300
+
+    добавлена первая до-тестовая версия верстки личного кабинета
+
+[33mcommit a20b8aec2cbefddf1ad382850c28a76ede5e1826[m
+Merge: af24ec7 1c7cc30
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 04:24:41 2017 +0300
+
+    Merge pull request #30 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit 077b806012d563de9dbd3a6efc19b6d5c44c6117[m
+Merge: e371988 1c7cc30
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 04:24:38 2017 +0300
+
+    Merge pull request #31 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit 1c7cc3013776524f1801e39fc68b26db96b0759c[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 04:21:08 2017 +0300
+
+    forget to save solution
+
+[33mcommit b6faa53cebde07314f7447e846b51406a1ef3310[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 04:18:34 2017 +0300
+
+    added .gitignore file
+
+[33mcommit a1b54df093de0760396e813ee31e1372de3d929d[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 04:18:01 2017 +0300
+
+    removed files && update versions
+
+[33mcommit af24ec7b06079e3803bdcf4feb78678c70b7b3ca[m
+Merge: a582f4f 240647d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 03:51:37 2017 +0300
+
+    Merge pull request #28 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit e37198897e7e412951a7a62f021a2b836057ffc1[m
+Merge: c908186 240647d
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 03:51:33 2017 +0300
+
+    Merge pull request #29 from YarGU-Demidov/0.0.1/feature/add-api-for-user-info
+    
+    0.0.1/feature/add api for user info
+
+[33mcommit 240647d707e251c5d304876dae236252c821fb9b[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Wed Mar 8 03:44:27 2017 +0300
+
+    some improvements like
+     - migrating to new proj.system
+     - user info implementations
+
+[33mcommit a0c7df0f03ecf5bed9a1ecbbd65178c55c6fe2db[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Mar 6 21:05:49 2017 +0300
+
+    small improvements
+
+[33mcommit b6d9b92f58c02dd67fd24226b90e61d5f1947c0d[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Mar 6 01:39:40 2017 +0300
+
+    cors fix, api for current user info data retrieving
+
+[33mcommit c9081869bdd58426ba5674e583da9bb3c3735e05[m
+Merge: 740353a 6573a55
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 5 22:25:51 2017 +0300
+
+    Merge pull request #26 from YarGU-Demidov/0.0.1/feature/add-api-for-menu-items
+    
+    0.0.1/feature/add api for menu items
+
+[33mcommit a582f4f65b1e7ebbd2509140d6b699a4c67dc258[m
+Merge: 322d06a 6573a55
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 5 22:25:43 2017 +0300
+
+    Merge pull request #27 from YarGU-Demidov/0.0.1/feature/add-api-for-menu-items
+    
+    added ability to retrieve menu items from server api
+
+[33mcommit 6573a553e51e5be1c1bef7037c65492ed2cafe28[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Mar 5 22:24:36 2017 +0300
+
+    added ability to retrieve menu items from server api
+
+[33mcommit 740353a3b615fbc86f2eb27d73276abbe41d2c37[m
+Merge: 504efdf 60fa3c7
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Mar 3 00:14:24 2017 +0300
+
+    Merge pull request #24 from YarGU-Demidov/0.0.1/feature/huge-code-refactoring
+    
+    0.0.1/feature/huge code refactoring
+
+[33mcommit 322d06a636957adb89ab54547074a7eebce23198[m
+Merge: 7747a61 60fa3c7
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Mar 3 00:14:20 2017 +0300
+
+    Merge pull request #25 from YarGU-Demidov/0.0.1/feature/huge-code-refactoring
+    
+    отрефакторил код
+
+[33mcommit 60fa3c77e43c3c98a96a3660092668bef950af7a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Mar 3 00:13:36 2017 +0300
+
+    отрефакторил код
+    поправил коннект к базе
+
+[33mcommit 7747a611ddc74f22e3a9793905b71dcad71ad28d[m
+Merge: 6b141ba e027099
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Mar 2 21:42:16 2017 +0300
+
+    Merge pull request #22 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    updated
+
+[33mcommit 504efdf30999d41daaa6e377f8a9ab63e4a58caa[m
+Merge: af78dc8 e027099
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Mar 2 21:42:12 2017 +0300
+
+    Merge pull request #23 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    updated
+
+[33mcommit e027099007cf51e423adba79646a4e48ff4ce8c4[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Mar 2 21:40:56 2017 +0300
+
+    updated
+
+[33mcommit af78dc8d0df8192a3c1659de0be1200b786bedc5[m
+Merge: 4618fb0 235a704
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 16:14:38 2017 +0400
+
+    Merge pull request #20 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    more versions up
+
+[33mcommit 6b141ba3f5954a03207899a32b6f021394ca944c[m
+Merge: 26a2d0a 235a704
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 16:14:30 2017 +0400
+
+    Merge pull request #21 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    more versions up
+
+[33mcommit 235a704cfed62f8959b6704026569dcb77a317ae[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 15:12:16 2017 +0300
+
+    more versions up
+
+[33mcommit 4618fb0cf334c96d342ca32bdaba3d2a38604438[m
+Merge: f60253a c9e700f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 14:35:21 2017 +0400
+
+    Merge pull request #19 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    0.0.1/bugfix/maa/upgrade version
+
+[33mcommit 26a2d0a309fb5d6972e1d9a335521ff268e4a94d[m
+Merge: 0e541ca c9e700f
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 14:34:38 2017 +0400
+
+    Merge pull request #18 from YarGU-Demidov/0.0.1/bugfix/maa/upgrade-version
+    
+    0.0.1/bugfix/maa/upgrade version
+
+[33mcommit c9e700fb7a4e3ee0f9d0bfd18dfbef4d07108dd6[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Fri Feb 24 13:32:34 2017 +0300
+
+    version updated
+
+[33mcommit 0e541caa377c3256043cbbf769f20694fd75d26f[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Thu Dec 8 14:28:16 2016 +0300
+
+    add dep
+
+[33mcommit ad9c44724ca7e2ce6493d827938182d3c1ee2185[m
+Author: Andrey Mokeev <andrey@mokee1995.ru>
+Date:   Sat Oct 22 14:50:15 2016 +0300
+
+    fix release state
+
+[33mcommit ba24d58ca9f12b03081245538ddb9e0e96501eb5[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sat Oct 15 14:54:01 2016 +0300
+
+    more views changes
+
+[33mcommit f143ca7ff61a2999ca3c4f2c367f90760b9cd7f5[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Oct 15 03:15:28 2016 +0300
+
+    fix some issues
+
+[33mcommit 8e4a1a3367e96bc306afd74b1750b7bae52cb528[m
+Author: aa.mokeev <aa.mokeev@tensor.ru>
+Date:   Fri Oct 14 19:41:58 2016 +0300
+
+    обновил модельки
+    добавил забытую конфигурацию модели прав
+    и прочие мелкие изменения
+
+[33mcommit 6279b25c169e03f2b404018c83fb82e11181c00e[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Oct 14 04:01:33 2016 +0300
+
+    added files
+
+[33mcommit 7d521fcf227e0054375ac3a83dcc0d91c183add2[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Oct 14 04:01:12 2016 +0300
+
+    fix code
+
+[33mcommit f9ce655f55f391b6502eaae095f2043436b40dcb[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Oct 13 22:42:39 2016 +0300
+
+    start models and auth
+
+[33mcommit d5992a4d539310d2b1ac74ff4a6093c3b9dcc1bc[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Oct 2 04:43:12 2016 +0300
+
+    добавлена авторизация, исправления моделей и связей, удалены старые миграции и пересозданы заново
+
+[33mcommit f60253af2db9813726e43af6f5f0260ce510ddab[m
+Merge: dcda229 20dae21
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Oct 2 03:02:40 2016 +0300
+
+    Merge pull request #9 from YarGU-Demidov/dev/feature/maa/add-mit-license
+    
+    Create LICENCE
+
+[33mcommit 20dae21a99221a200932fb392deee536a47dee0a[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Sun Oct 2 02:58:26 2016 +0300
+
+    Create LICENCE
+
+[33mcommit 5d33658917c8e84e9d476dc1e762253c059c205a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Fri Sep 30 21:36:53 2016 +0300
+
+    Исправил модели и их связи (#1)
+
+[33mcommit dcda229485667f9c523ed7c406169dcac2f5e54a[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Sep 29 21:35:46 2016 +0300
+
+    more fixes
+
+[33mcommit d013653d94927fd5fef7ca5f954171b346280496[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Thu Sep 29 02:38:40 2016 +0300
+
+    removed old migrations
+
+[33mcommit 6af3e3a166158516dc6b365533882920a62fb1dc[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Tue Sep 27 01:57:16 2016 +0300
+
+    reinvented settings management
+
+[33mcommit 82b378841f5bfba95186b0f2cccc6d428b0051f8[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 26 17:29:05 2016 +0300
+
+    removed idea folder
+
+[33mcommit 52cc3b17650bb5ce521c45f992e6e22cc3d7740a[m
+Author: Mokeev Andrey <andrey@mokeev1995.ru>
+Date:   Mon Sep 26 17:27:58 2016 +0300
+
+    fix gitignore
+
+[33mcommit d97e76c737c77372b7f16a5cb621cf923cc42afa[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Mon Sep 26 17:00:04 2016 +0300
+
+    more database updates
+
+[33mcommit 9b506f3c17c2a8ec69d0718525d569843bc64dc8[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sun Sep 25 05:07:04 2016 +0300
+
+    a lot of work
+
+[33mcommit 89c77a80415f3c4ed6ecdff24059e46d51f14b20[m
+Author: Andrey Mokeev <andrey@mokeev1995.ru>
+Date:   Sat Sep 24 22:38:41 2016 +0300
+
+    remove template markup
+
+[33mcommit 9b29c636c30bb0028682f682bd9cb6df6948f8d4[m
+Author: mokeev1995 <mokeev1995@MOKEEV1995-MAC>
+Date:   Sat Sep 24 22:31:28 2016 +0300
+
+    Add project files.
+
+[33mcommit f0bfa060521a14633e713e86f1dbc3ece5330940[m
+Author: mokeev1995 <mokeev1995@MOKEEV1995-MAC>
+Date:   Sat Sep 24 22:31:26 2016 +0300
+
+    Add .gitignore and .gitattributes.
